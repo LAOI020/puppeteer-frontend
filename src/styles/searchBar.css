@@ -1,0 +1,36 @@
+
+.searchBar-container {
+    position: fixed;
+    top: 1rem;
+    left: var(--searchBar-margin);
+    right: var(--searchBar-margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    z-index: 1;
+}
+.searchBar-container h3 {
+    margin: 0 5px 0 0;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #2D2D2D;
+}
+.searchBar-container form {
+    width: 100%;
+}
+.searchBar-container input {
+    width: 97%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: #2D2D2D;
+    font-size: 1rem;
+}
+.searchBar-container input:focus {
+    outline: none;
+}
+
+
